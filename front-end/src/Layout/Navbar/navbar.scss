@@ -1,0 +1,49 @@
+.myBackground{
+    background-image: url("https://preview.colorlib.com/theme/tasty/images/bg_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+        h1{
+            border: 4px solid white;
+            padding: 3px;
+            color: white;
+        }
+        .navLinks{
+            display: flex;
+            align-items: center;
+            gap: 45px;
+            color: white;
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: wheat;
+            }
+        }
+    }
+    .cakeCont{
+        margin:10% auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h3{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            max-width: 700px;
+            text-align: center;
+            color: white;
+            font-size: 50px;
+        }
+        .cakeBut{
+            background-color: rgba(240, 248, 255, 0);
+            border: 2px solid white;
+            color: white;
+            padding: 15px 28px;
+        }
+    }
+}
